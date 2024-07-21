@@ -266,27 +266,7 @@ nav{
     height: 310px;
     opacity: 1;
 }
-.ade-story{
-    width: 420px;
-    height: 640px;
-    background-color: #cadf72;
-}
-.ade-story-box{
-    padding: 40px;
-    width: 420px;
-}
-.ade-story-box > h2{
-    font-size: 40px;
-    color: #fff;
-    font-weight: 300;
-    letter-spacing: -2px;
-}
-.ade-story-box > h3{
-    font-size: 18px;
-    color: #fff;
-    font-weight: 300;
-    margin-top: 250px;
-}
+
 footer{
     padding: 40px 0;
     text-align: center;
