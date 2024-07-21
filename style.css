@@ -185,51 +185,6 @@ nav{
     color: #f95522;
     display: block;
 }
-.biz-info{
-    width: 1300px;
-    height: 800px;
-}
-.biz-text-wrap{
-    text-align: center;
-    width: 800px;
-}
-.biz-text-wrap > h2{
-    font-size: 34px;
-    font-weight: 700;
-    padding-top: 70px;
-    letter-spacing: -1px;
-}
-.biz-text-wrap > p{
-    letter-spacing: -1px;
-    line-height: 25px;
-    color: #000;
-    margin-top: 20px;
-    margin-bottom: 150px;
-}
-.biz-3column{
-    width: 1300px;
-    padding-bottom: 130px;
-}
-.biz-3column-detail{
-    text-align: center;
-    padding: 0 10px;
-    display: inline-block;
-    width: 430px;
-}
-.biz-3column-detail > img{
-    width: 99px;
-}
-.biz-3column-detail > h3{
-    margin: 10px 0 10px 0;
-    font-size: 22px;
-    font-weight: 700;
-}
-.biz-3column-detail > p{
-    font-weight: 300;
-    line-height: 24px;
-    text-align: center;
-    padding: 0 10px 0 10px;
-}
 
 #youtubeEvent{
     height: 310px;
