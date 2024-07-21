@@ -84,21 +84,6 @@ header{
     /* 다른 스타일 속성들... */
 }
 
-/* 768px 이상 화면 크기에 대한 스타일 */
-@media (min-width: 769px) {
-    /* 원래 스타일로 복원 */
-    header {
-        height: 50px;
-        padding: 0;
-        text-align: left;
-    }
-    
-    .header-wrap {
-        width: 1300px;
-    }
-    
-    /* 다른 스타일 속성들... */
-}
 
 #logoWrap{
     width: 180px;
