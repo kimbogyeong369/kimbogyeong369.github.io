@@ -363,15 +363,6 @@ body {
     cursor: none; /* 기본 커서 숨기기 */
 }
 
-.content {
-    text-align: center;
-    margin-top: 200px;
-}
-
-h1, p {
-    color: #333;
-}
-
 .custom-cursor {
     width: 20px;
     height: 20px;
