@@ -207,18 +207,18 @@ nav{
 .ade-photo-bg-1, .ade-photo-bg-2, .ade-photo-bg-3{
     display: inline-block;
     background-color: #000;
-    width: 350px;
-    height: 350px;
+    width: 340px;
+    height: 340px;
     margin-right: 10px;
 }
 .ade-photo-bg-1 img, .ade-photo-bg-2 img, .ade-photo-bg-3 img{
-    width: 350px;
-    height: 350px;
+    width: 340px;
+    height: 340px;
     opacity: 0.8;
 }
 .ade-photo-bg-1 img:hover, .ade-photo-bg-2 img:hover, .ade-photo-bg-3 img:hover{
-    width: 350px;
-    height: 350px;
+    width: 340px;
+    height: 340px;
     opacity:  1;
 }
 
