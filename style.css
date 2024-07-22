@@ -74,11 +74,6 @@ header{
     width: 180px;
     height: 100px;
 }
-.logo-img > img{
-    height: 43px;
-    vertical-align: middle;
-    padding-right: 16px;
-}
 .logo-title{
     font-size: 32px;
     color: #ff9011;
@@ -212,18 +207,18 @@ nav{
 .ade-photo-bg-1, .ade-photo-bg-2, .ade-photo-bg-3{
     display: inline-block;
     background-color: #000;
-    width: 310px;
-    height: 310px;
+    width: 350px;
+    height: 350px;
     margin-right: 10px;
 }
 .ade-photo-bg-1 img, .ade-photo-bg-2 img, .ade-photo-bg-3 img{
-    width: 310px;
-    height: 310px;
+    width: 350px;
+    height: 350px;
     opacity: 0.8;
 }
 .ade-photo-bg-1 img:hover, .ade-photo-bg-2 img:hover, .ade-photo-bg-3 img:hover{
-    width: 310px;
-    height: 310px;
+    width: 350px;
+    height: 350px;
     opacity:  1;
 }
 
