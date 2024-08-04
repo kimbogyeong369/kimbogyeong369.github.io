@@ -341,7 +341,7 @@ footer > p{
 .custom-cursor {
     width: 20px;
     height: 20px;
-    background-color: #ff5733;
+    background-color: #21B4D1;
     border-radius: 50%;
     position: absolute;
     pointer-events: none; /* 커서가 다른 요소를 가리지 않도록 설정 */
