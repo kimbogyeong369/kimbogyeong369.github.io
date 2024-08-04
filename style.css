@@ -1,10 +1,10 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family: 'Noto Sans KR', AppleGothic,
+   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
    sans-serif;
    font-size: 16px;
    color: #000;
@@ -335,7 +335,7 @@ footer > p{
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Pretendard Variable", Pretendard, sans-serif;
     background-color: #f0f0f0;
     cursor: none; /* 기본 커서 숨기기 */
 }
