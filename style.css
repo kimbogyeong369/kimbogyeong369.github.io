@@ -78,8 +78,8 @@ iframe{
     height: 100px;
 }
 .logo-title{
-    font-size: 32px;
-    color: #ff9011;
+    font-size: 40px;
+    color: #EE8CE3;
     font-family: 'Cafe24Shiningstar', sans-serif;
 }
 nav{
@@ -209,7 +209,7 @@ nav{
 footer{
     padding: 40px 0;
     text-align: center;
-    background-color: #E9E1EE;
+    background-color: rgba(158, 213, 246, 0.3);
 }
 footer > h5{
     font-size: 28px;
