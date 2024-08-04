@@ -204,19 +204,19 @@ nav{
 footer{
     padding: 40px 0;
     text-align: center;
-    background-color: #1b1b1b;
+    background-color: #E9E1EE;
 }
 footer > h5{
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #fff;
+    color: #000000;
 }
 footer > p{
     font-size: 12px;
     font-weight: 100;
     line-height: 25px;
-    color: #aeaeae;
+    color: #000000;
 }
 #breCr{
     width: 1300px;
