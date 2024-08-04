@@ -10,6 +10,10 @@
    color: #000;
    scroll-behavior: smooth;
 }
+@font-face {
+    font-family: 'Cafe24Shiningstar';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Shiningstar.woff') format('woff');
+}
 ul li{
     list-style: none;
 }
@@ -76,7 +80,7 @@ iframe{
 .logo-title{
     font-size: 32px;
     color: #ff9011;
-    font-weight: 700;
+    font-family: 'Cafe24Shiningstar', sans-serif;
 }
 nav{
     width: 600px;
@@ -209,7 +213,7 @@ footer{
 }
 footer > h5{
     font-size: 28px;
-    font-weight: 700;
+    font-family: 'Cafe24Shiningstar', sans-serif;
     margin-bottom: 20px;
     color: #000000;
 }
