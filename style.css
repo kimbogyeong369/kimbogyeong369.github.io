@@ -208,17 +208,22 @@ nav{
     opacity: 0.5; /* 마우스를 올렸을 때 이미지를 숨김 */
 }
 
-/* 텍스트 숨기기 */
-.ade-photo-bg-1 h3, .ade-photo-bg-1 p, .ade-photo-bg-2 h3, .ade-photo-bg-2 p, .ade-photo-bg-3 h3, .ade-photo-bg-3 p {
+/* 텍스트 초기 상태 */
+.text-content {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: #fff;
     font-size: 16px;
     background-color: rgba(0, 0, 0, 0.5); /* 배경 색상과 투명도 조절 가능 */
     padding: 10px;
-    opacity: 0;
+    text-align: center;
+    opacity: 0; /* 기본 상태에서 텍스트를 숨김 */
     transition: opacity 0.5s; /* 텍스트 전환 효과 */
+}
+.ade-photo-bg-1:hover .text-content, .ade-photo-bg-2:hover .text-content, .ade-photo-bg-3:hover .text-content {
+    opacity: 1; /* 마우스를 올렸을 때 텍스트가 보이게 설정 */
 }
 .ade-photo-bg-1, .ade-photo-bg-2, .ade-photo-bg-3 {
     display: inline-block;
