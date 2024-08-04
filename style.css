@@ -205,27 +205,7 @@ nav{
 
 /* 마우스 오버 상태: 이미지 숨기고 회색 배경으로 변함 */
 .ade-photo-bg-1:hover img, .ade-photo-bg-2:hover img, .ade-photo-bg-3:hover img {
-    opacity: 80; /* 마우스를 올렸을 때 이미지를 숨김 */
-}
-
-/* 기본 상태: 회색 배경과 텍스트 표시 */
-.ade-photo-bg-1::before, .ade-photo-bg-2::before, .ade-photo-bg-3::before {
-    content: 'Your Text Here'; /* 여기에 원하는 텍스트를 추가하세요 */
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    color: #fff;
-    font-size: 16px;
-    background-color: rgba(0, 0, 0, 0.5); /* 배경 색상과 투명도 조절 가능 */
-    padding: 10px;
-    display: block; /* 기본적으로 텍스트가 보이게 설정 */
-    transition: opacity 0.5s; /* 텍스트 전환 효과 */
-}
-
-/* 마우스 오버 상태: 회색 배경과 텍스트 보이게 */
-.ade-photo-bg-1:hover::before, .ade-photo-bg-2:hover::before, .ade-photo-bg-3:hover::before {
-    background-color: #000; /* 회색 배경으로 변함 */
-    color: #fff; /* 텍스트 색상 */
+    opacity: 50; /* 마우스를 올렸을 때 이미지를 숨김 */
 }
 
 footer{
