@@ -196,18 +196,20 @@ nav{
     height: 340px;
     margin-right: 5px;
 }
-.ade-photo-bg-1 img, .ade-photo-bg-2 img, .ade-photo-bg-3 img{
-   width: 350px;
-    height: 340px;
-    opacity: 0;
-    transition: opacity 0.5s;
-}
-.ade-photo-bg-1 img:hover, .ade-photo-bg-2 img:hover, .ade-photo-bg-3 img:hover{
+.ade-photo-bg-1 img, .ade-photo-bg-2 img, .ade-photo-bg-3 img {
     width: 350px;
     height: 340px;
-    opacity:  1;
+    opacity: 1; /* 기본 상태에서 이미지가 보임 */
+    transition: opacity 0.5s; /* 이미지 전환 효과 */
 }
-.ade-photo-bg-1::after, .ade-photo-bg-2::after, .ade-photo-bg-3::after {
+
+/* 마우스 오버 상태: 이미지 숨기고 회색 배경으로 변함 */
+.ade-photo-bg-1:hover img, .ade-photo-bg-2:hover img, .ade-photo-bg-3:hover img {
+    opacity: 0; /* 마우스를 올렸을 때 이미지를 숨김 */
+}
+
+/* 기본 상태: 회색 배경과 텍스트 표시 */
+.ade-photo-bg-1::before, .ade-photo-bg-2::before, .ade-photo-bg-3::before {
     content: 'Your Text Here'; /* 여기에 원하는 텍스트를 추가하세요 */
     position: absolute;
     bottom: 10px;
@@ -216,16 +218,14 @@ nav{
     font-size: 16px;
     background-color: rgba(0, 0, 0, 0.5); /* 배경 색상과 투명도 조절 가능 */
     padding: 10px;
-    display: none;
+    display: block; /* 기본적으로 텍스트가 보이게 설정 */
+    transition: opacity 0.5s; /* 텍스트 전환 효과 */
 }
 
-.ade-photo-bg-1:hover::after, .ade-photo-bg-2:hover::after, .ade-photo-bg-3:hover::after {
-    display: block;
-}
-
-/* 마우스가 이미지 위에 있을 때 배경이 회색으로 변하지 않도록 설정 */
-.ade-photo-bg-1:hover, .ade-photo-bg-2:hover, .ade-photo-bg-3:hover {
-    background-color: transparent;
+/* 마우스 오버 상태: 회색 배경과 텍스트 보이게 */
+.ade-photo-bg-1:hover::before, .ade-photo-bg-2:hover::before, .ade-photo-bg-3:hover::before {
+    background-color: #000; /* 회색 배경으로 변함 */
+    color: #fff; /* 텍스트 색상 */
 }
 
 footer{
