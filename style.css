@@ -165,10 +165,16 @@ nav{
     font-size: 34px;
     font-weight: 700px;
 }
-
-.movie-our-story > p{
+.intro-text{
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -1px;
+    padding-top: 30px;   
+}
+.design-info{
+    font-size: 10px;
+    font-weight: 500;
     line-height: 25px;
     letter-spacing: -1px;
     padding-top: 30px;
