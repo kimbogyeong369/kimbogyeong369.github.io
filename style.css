@@ -215,7 +215,7 @@ nav{
     transition: opacity 0.5s; /* 텍스트 전환 효과 */
 }
 .text-content > h3{
-   font-size: 20px;
+   font-size: 30px;
     font-weight: 700px;
 }
 .text-content > p{
