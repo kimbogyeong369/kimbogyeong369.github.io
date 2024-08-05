@@ -140,7 +140,7 @@ nav{
     height: 310px;
 }
 .youtube-event-bg{
-    height: 280px;
+    height: 480px;
 }
 .movie-story-wrap{
     width: 1080px;
@@ -153,21 +153,16 @@ nav{
 }
 .movie-our-story{
     margin-left: 20px;
-    padding-top: 50px;
-    width: 530px;
+    padding-top: 100px;
+    width: 230px;
     height: 283px;
 }
 .movie-our-story > h2{
-    width: 530px;
+    width: 230px;
     font-size: 34px;
     font-weight: 700px;
 }
-.movie-our-story > h2::after{
-    content: '';
-    display: inline-block;
-    width: 220px;
-    border-bottom: 4px solid #000;
-}
+
 .movie-our-story > p{
     font-size: 16px;
     font-weight: 300;
