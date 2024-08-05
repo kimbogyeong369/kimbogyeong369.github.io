@@ -141,6 +141,12 @@ nav{
 #youtubeEvent{
     height: 480px;
 }
+.movie-youtube{
+    margin: -20px;
+    box-sizing: 10px 25px 30px 1px rgba(202,153,137,0.7);
+    width: 650px;
+    height: 500px;
+}
 .youtube-event-bg{
     height: 480px;
 }
