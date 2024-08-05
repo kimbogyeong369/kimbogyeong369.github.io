@@ -219,16 +219,10 @@ nav{
     text-align: center;
     opacity: 0; /* 기본 상태에서 텍스트를 숨김 */
     transition: opacity 0.5s; /* 텍스트 전환 효과 */
-}
-.text-content > h3{
-   font-size: 30px;
+      font-size: 30px;
     font-weight: 700px;
 }
-.text-content > p{
-   font-size: 16px;
-   font-weight: 300px;
-   line-height: 25px;
-} 
+
 .ade-photo-bg-1:hover .text-content, .ade-photo-bg-2:hover .text-content, .ade-photo-bg-3:hover .text-content {
     opacity: 1; /* 마우스를 올렸을 때 텍스트가 보이게 설정 */
 }
