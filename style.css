@@ -219,7 +219,7 @@ nav{
     text-align: center;
     opacity: 0; /* 기본 상태에서 텍스트를 숨김 */
     transition: opacity 0.5s; /* 텍스트 전환 효과 */
-      font-size: 30px;
+   font-size: 25px;
     font-weight: 700px;
 }
 
