@@ -225,8 +225,8 @@ nav{
 }
 .text-content > p{
    font-size: 16px;
-   font-weight: 500px;
-   line-height: 10px;
+   font-weight: 300px;
+   line-height: 25px;
 } 
 .ade-photo-bg-1:hover .text-content, .ade-photo-bg-2:hover .text-content, .ade-photo-bg-3:hover .text-content {
     opacity: 1; /* 마우스를 올렸을 때 텍스트가 보이게 설정 */
