@@ -157,10 +157,10 @@ nav{
 }
 
 .movie-our-story{
+   padding-top:300px
     margin-left: 50px;
-    padding-bottom: 20px;
     width: 400px;
-    height: 283px;
+    height: 400px;
 }
 .movie-our-story > h2{
     width: 400px;
