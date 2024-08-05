@@ -7,8 +7,10 @@
    font-family: "Pretendard Variable", Pretendard, sans-serif;
    sans-serif;
    font-size: 16px;
-   color: #000;
    scroll-behavior: smooth;
+}
+body {
+    color: #000; /* body에 검정색을 적용 */
 }
 @font-face {
     font-family: 'Cafe24Shiningstar';
