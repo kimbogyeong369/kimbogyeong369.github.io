@@ -153,11 +153,10 @@ nav{
 .movie-story-wrap{
     width: 1080px;
     display: flex;
-    align-items: flex-start
+    align-items: flex-end
 }
 
 .movie-our-story{
-   padding-top:300px
     margin-left: 50px;
     width: 400px;
     height: 400px;
