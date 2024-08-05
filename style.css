@@ -152,17 +152,17 @@ nav{
 .movie-youtube{
     margin: -20px;
     box-sizing: 10px 25px 30px 1px rgba(202,153,137,0.7);
-    width: 600px;
-    height: 340px;
+    width: 700px;
+    height: 500px;
 }
 .movie-our-story{
     margin-left: 40px;
     padding-top: 50px;
-    width: 400px;
+    width: 500px;
     height: 283px;
 }
 .movie-our-story > h2{
-    width: 400px;
+    width: 500px;
     font-size: 34px;
     font-weight: 700px;
 }
@@ -214,12 +214,19 @@ nav{
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff !important; /* 텍스트 색상을 흰색으로 설정 */
-    font-size: 16px;
     padding: 10px;
     text-align: center;
     opacity: 0; /* 기본 상태에서 텍스트를 숨김 */
     transition: opacity 0.5s; /* 텍스트 전환 효과 */
 }
+.text-content > h3{
+   font-size: 20px;
+    font-weight: 700px;
+}
+.text-content > p{
+   font-size: 16px;
+    font-weight: 400px;
+} 
 .ade-photo-bg-1:hover .text-content, .ade-photo-bg-2:hover .text-content, .ade-photo-bg-3:hover .text-content {
     opacity: 1; /* 마우스를 올렸을 때 텍스트가 보이게 설정 */
 }
