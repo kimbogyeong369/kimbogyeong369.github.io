@@ -207,11 +207,11 @@ nav{
 
 /* 텍스트 초기 상태 */
 .text-content {
-    position: absolute;
+   position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffffff; /* 텍스트 색상을 흰색으로 설정 */
+    color: #ffffff !important; /* 텍스트 색상을 흰색으로 설정 */
     font-size: 16px;
     padding: 10px;
     text-align: center;
