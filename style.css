@@ -156,13 +156,13 @@ nav{
     height: 283px;
 }
 .movie-our-story{
-    margin-left: 20px;
+    margin-left: 40px;
     padding-top: 50px;
-    width: 230px;
+    width: 400px;
     height: 283px;
 }
 .movie-our-story > h2{
-    width: 230px;
+    width: 400px;
     font-size: 34px;
     font-weight: 700px;
 }
