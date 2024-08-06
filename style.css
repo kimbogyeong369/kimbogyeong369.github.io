@@ -108,7 +108,7 @@ nav{
 }
 #banEvent {
     padding-top: 200px;
-    height: 700px;
+    height: 650px;
     background-image: url(https://github.com/user-attachments/assets/6b46db14-5c9c-4840-abd3-7de56f1f2f85);
     background-repeat: no-repeat;
     background-position: center center; /* Center the background image */
@@ -133,7 +133,7 @@ nav{
     line-height: 100px;
     text-align: left;
     font-weight: 700;
-    width: 600px;
+    width: 800px;
 }
 
 .youtube-event-bg{
