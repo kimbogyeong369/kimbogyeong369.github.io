@@ -107,8 +107,8 @@ nav{
     color: #f95522;
 }
 #banEvent {
-   margin-top: 200px;
-    height: 650px;
+   padding-top: 200px;
+    height: 670px;
     background-image: url(https://github.com/user-attachments/assets/ef746ab7-8482-4e8e-bf6c-763293e3ab71);
     background-repeat: no-repeat;
     background-position: center center; /* Center the background image */
