@@ -109,7 +109,7 @@ nav{
 #banEvent {
     padding-top: 200px;
     height: 840px;
-    background-imgs: url(https://github.com/user-attachments/assets/2f4d3666-f63d-473a-80dd-ebebb00d1c38); /* Path to your background image */
+    background-image: url(https://github.com/user-attachments/assets/2f4d3666-f63d-473a-80dd-ebebb00d1c38);
     background-repeat: no-repeat;
     background-position: center center; /* Center the background image */
     background-size: cover; /* Make sure the image covers the entire section */
