@@ -151,10 +151,9 @@ nav{
     display: block;
     width: 396px;
     height: 500px;
-   margin-left: 50px;
 }
 .movie-our-story{
-    margin-right: 50px;
+    margin-left: 50px;
     width: 400px;
 }
 .movie-our-story > h2{
