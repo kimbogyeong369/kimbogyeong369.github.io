@@ -126,10 +126,6 @@ nav{
    margin-right: 200px; /* Add some space between the text and the gif*/
    color: #0b3150;
 }
-.ban-content{
-    display: flex;
-    align-items: center;
-}
 .ban-text-wrap > h1{
     font-size: 80px;
     letter-spacing: -8px;
