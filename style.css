@@ -142,6 +142,15 @@ nav{
     width: 396px;
     height: 500px;
 }
+.fl {
+    float: left;
+    /* Adjust any additional styles if needed */
+}
+
+.fr {
+    float: right;
+    /* Adjust any additional styles if needed */
+}
 .youtube-event-bg{
     height: 480px;
    marin-top:100px;
