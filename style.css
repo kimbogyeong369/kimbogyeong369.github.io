@@ -137,20 +137,7 @@ nav{
     font-weight: 700;
     width: 700px;
 }
-.ban-gif-wrap img {
-    display: block;
-    width: 396px;
-    height: 500px;
-}
-.fl {
-    float: left;
-    /* Adjust any additional styles if needed */
-}
 
-.fr {
-    float: right;
-    /* Adjust any additional styles if needed */
-}
 .youtube-event-bg{
     height: 480px;
    marin-top:100px;
@@ -160,9 +147,14 @@ nav{
     display: flex;
     align-items: flex-end
 }
-
+.ban-gif-wrap img {
+    display: block;
+    width: 396px;
+    height: 500px;
+   margin-left: 50px;
+}
 .movie-our-story{
-    margin-left: 50px;
+    margin-right: 50px;
     width: 400px;
 }
 .movie-our-story > h2{
