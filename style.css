@@ -106,12 +106,13 @@ nav{
 .gnb-active{
     color: #f95522;
 }
-#banEvent{
-    padding-top: 100px;
+#banEvent {
+    padding-top: 200px;
     height: 840px;
-   background-imgs:url(https://github.com/user-attachments/assets/72d3829d-f66e-4d2d-bffa-b4f37aa24892);
+    background-image: url(https://github.com/user-attachments/assets/cdf46f79-6398-4579-8792-947d6c79730a); /* Path to your background image */
     background-repeat: no-repeat;
-   
+    background-position: center center; /* Center the background image */
+    background-size: cover; /* Make sure the image covers the entire section */
 }
 .ban-event-on{
     margin: auto;
