@@ -127,19 +127,6 @@ nav{
     display: flex;
     align-items: center;
 }
-.ban-text-wrap .title-box {
-    background-color: #f0f0f0; /* Background color for the title box */
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-align: center;
-    margin-bottom: 20px; /* Space between the title box and h1 */
-}
-.ban-text-wrap .title-box p {
-    margin: 5px 0; /* Adjust the margin for the text within the title box */
-    font-size: 24px; /* Font size for the title box text */
-    font-weight: 600;
-    color: #333;
-}
 .ban-text-wrap > h1{
     font-size: 60px;
     letter-spacing: -8px;
