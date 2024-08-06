@@ -113,13 +113,19 @@ nav{
 }
 .ban-event-on{
     margin: auto;
-    background-image: url(../imgs/main_juice.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     width: 1300px;
+   display: flex;
+   align-items: center;
 }
 .ban-text-wrap{
     vertical-align: middle;
+   margin-right: 20px; /* Add some space between the text and the gif */
+}
+.ban-content{
+    display: flex;
+    align-items: center;
 }
 .ban-text-wrap > h1{
     font-size: 84px;
@@ -129,14 +135,7 @@ nav{
     font-weight: 700;
     width: 600px;
 }
-.ban-text-wrap > p{
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: left;
-    font-weight: 300;
-    width: 500px;
-}
+
 .youtube-event-bg{
     height: 480px;
 }
