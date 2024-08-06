@@ -121,7 +121,8 @@ nav{
 }
 .ban-text-wrap{
     vertical-align: middle;
-   margin-right: 200px; /* Add some space between the text and the gif */
+   margin-right: 200px; /* Add some space between the text and the gif*/
+   color: #1dbbcd
 }
 .ban-content{
     display: flex;
