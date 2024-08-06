@@ -5,7 +5,6 @@
    padding: 0;
    box-sizing: border-box;
    font-family: "Pretendard Variable", Pretendard, sans-serif;
-   sans-serif;
    font-size: 16px;
    scroll-behavior: smooth;
 }
@@ -112,6 +111,7 @@ nav{
     height: 840px;
 }
 .ban-event-on{
+   background-image: url(https://github.com/user-attachments/assets/dbce3b6c-bdd4-4fff-8321-c95d8e80174e);
     margin: auto;
     background-repeat: no-repeat;
     background-position: right bottom;
