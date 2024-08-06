@@ -125,15 +125,23 @@ nav{
    margin-right: 200px; /* Add some space between the text and the gif*/
    color: #ffffff;
 }
+.ban-content{
+    display: flex;
+    align-items: center;
+}
 .ban-text-wrap > h1{
-    font-size: 70px;
+    font-size: 100px;
     letter-spacing: -5px;
     line-height: 100px;
     text-align: left;
     font-weight: 700;
     width: 800px;
 }
-
+.ban-gif-wrap img {
+    display: block;
+    width: 500px;
+    height: 300px;
+}
 .youtube-event-bg{
     height: 480px;
    marin-top:100px;
