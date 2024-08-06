@@ -115,7 +115,6 @@ nav{
     background-size: cover; /* Make sure the image covers the entire section */
 }
 .ban-event-on{
-   margin-top: 50px; /* 원하는 상단 여백 크기 */
     margin: auto;
     background-repeat: no-repeat;
     background-position: right bottom;
