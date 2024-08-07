@@ -313,8 +313,8 @@ footer > p{
 
 .custom-cursor {
    position: fixed;
-     width: 30px; /* Adjust the width and height as needed */
-     height: 30px;
+     width: 50px; /* Adjust the width and height as needed */
+     height: 50px;
      background-image: url(https://github.com/user-attachments/assets/c3accfcd-eb1f-4637-9933-2e9e7d685a71); /* Replace 'path/to/fin-image.png' with the actual path to your fin image */
      background-size: cover;
      pointer-events: none; /* Make sure the cursor doesn't interfere with other elements */
