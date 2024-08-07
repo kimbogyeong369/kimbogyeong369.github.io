@@ -16,6 +16,9 @@ document.addEventListener('mouseleave', () => {
     customCursor.style.display = 'none'; // 커서 숨기기
 });
 
-
+// 페이지 로드 시 커서 숨기기
+window.addEventListener('load', () => {
+    customCursor.style.display = 'none'; // 초기 상태에서 커서 숨기기
+});
 
 
