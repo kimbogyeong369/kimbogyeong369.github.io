@@ -7,3 +7,7 @@ document.addEventListener('mousemove', (e) => {
     customCursor.style.top = e.clientY + 'px'; // clientY를 사용하여 뷰포트에 상대적 위치
 });
 
+// 페이지 로드 시 커서 보이게 설정
+window.addEventListener('load', () => {
+    customCursor.style.opacity = 1; // 페이지 로드 후 커서 보이게 설정
+});
