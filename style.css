@@ -312,15 +312,12 @@ footer > p{
 }
 
 .custom-cursor {
-    width: 20px;
-    height: 20px;
-    background-color: #F686E2;
-    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+   background-image: url(https://github.com/user-attachments/assets/c3accfcd-eb1f-4637-9933-2e9e7d685a71); /* 여기에 원하는 이미지 URL을 넣습니다. */
     position: absolute;
     pointer-events: none; /* 커서가 다른 요소를 가리지 않도록 설정 */
     transform: translate(-50%, -50%);
-    transition: width 0.3s, height 0.3s, background-color 0.3s, transform 0.3s;
-    animation: ripple 1s linear infinite; /* 물방울 효과 애니메이션 */
 }
 
 @keyframes ripple {
