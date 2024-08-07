@@ -289,7 +289,14 @@ footer > p{
     max-height: 1080px; /* 최대 높이 */
     object-fit: cover; /* 이미지 비율을 유지하면서 영역을 채우도록 설정 */
 }
-
+/* 서브 페이지 */
+.image-gallery2 img {
+    width: 100%;  /* 부모 요소의 너비에 맞추기 */
+    height: auto; /* 비율 유지 */
+    max-width: 2000px; /* 최대 너비 */
+    max-height: 1125px; /* 최대 높이 */
+    object-fit: cover; /* 이미지 비율을 유지하면서 영역을 채우도록 설정 */
+}
 .button-more{
     display: block;
     font-size: 16px;
