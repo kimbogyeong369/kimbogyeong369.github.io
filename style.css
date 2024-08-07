@@ -280,67 +280,16 @@ footer > p{
 .breadcrumb-txt li:last-child::after{
     content: '';
 }
-.sub-con-1{
-    margin-top: 40px;
-    width: 1300px;
-    height: 800px;
-    text-align: left;
-}
-.sub-con-1 > h1{
-    color: #8a8a8a;
-    font-size: 20px;
-    line-height: 30px;
-}
-.sub-con-1 > h2{
-    color: #000;
-    font-size: 44px;
-    line-height: 40px;
-    letter-spacing: -1px;
-}
-.sub-con-1 > p{
-    width: 600px;
-    color: #000;
-    font-size: 18px;
-    line-height: 32px;
-    font-size: 18px;
-    line-height: 32px;
-    font-weight: 100;
-    margin: 0;
-    padding-top: 20px;
-}
-.sub-con-1 > img{
-    margin-top: 100px;
-    display: block;
-    margin-left: auto;
-    width: 256px;
+
+/* 서브 페이지 */
+.image-gallery img {
+    width: 100%;  /* 부모 요소의 너비에 맞추기 */
+    height: auto; /* 비율 유지 */
+    max-width: 1920px; /* 최대 너비 */
+    max-height: 1080px; /* 최대 높이 */
+    object-fit: cover; /* 이미지 비율을 유지하면서 영역을 채우도록 설정 */
 }
 
-#sub-con-2-bg{
-    background-color: #f6f6f4;
-    padding: 140px 0 140px 0;
-}
-.sub-con-2{
-    width: 1320px;
-    height: 290px;
-    display: block;
-    line-height: 100%;
-}
-.sub-con-2 > li{
-    width: 290px;
-    height: 290px;
-    display: inline-block;
-    margin: 0 18px 0 18px;
-}
-.sub-con-2-tit{
-    background-color: #fea484;
-    padding: 20px;
-    font-size: 30px;
-    color: #fff;
-    font-weight: 300;
-    letter-spacing: -1px;
-    line-height: 40px;
-    vertical-align: top;
-}
 .button-more{
     display: block;
     font-size: 16px;
@@ -348,25 +297,7 @@ footer > p{
     color: #fff;
     padding-top: 50px;
 }
-#subContents3{
-    width: 820px;
-    height: 860px;
-    text-align: center;
-}
-#subContents3 > h2{
-    margin-top: 80px;
-    font-size: 34px;
-}
-#subContents3 > h3{
-    margin-top: 18px;
-    font-size: 18px;
-    font-weight: 300;
-}
-#subContents3 > p{
-    margin-top: 18px;
-    font-size: 20px;
-    font-weight: 100;
-}
+
 * {
     margin: 0;
     padding: 0;
