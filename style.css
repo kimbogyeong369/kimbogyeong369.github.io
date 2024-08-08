@@ -242,9 +242,7 @@ footer {
 }
 
 footer > h5 {
-    width: 170px;
-    height: 60px;
-    margin: 0 auto 20px auto; /* 중앙 정렬과 아래 여백 */
+    margin: 0 auto 10px auto; /* 중앙 정렬과 아래 여백 */
 }
 
 footer > p {
