@@ -32,7 +32,6 @@ a{
     clear: both;
 }
 header {
-    display: flex;
     align-items: center; /* 수직 중앙 정렬 */
     justify-content: space-between; /* 양 끝 정렬 */
     line-height: 80px;
@@ -47,10 +46,6 @@ header {
 
 .header-wrap {
     width: 1300px;
-    display: flex; /* 수평 정렬을 위해 플렉스 박스 사용 */
-    align-items: center; /* 수직 중앙 정렬 */
-    justify-content: space-between; /* 양 끝 정렬 */
-    margin: auto; /* 중앙 정렬 */
 }
 
 
@@ -90,7 +85,6 @@ iframe{
     display: block; /* 이미지의 바닥 여백 제거 */
 }
 nav{
-    display: flex; /* 수평 정렬을 위해 플렉스 박스 사용 */
     width: 600px;
     height: 80px;
     font-size: 16px;
