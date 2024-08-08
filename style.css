@@ -10,8 +10,6 @@
 }
 body {
     color: #000; /* body에 검정색을 적용 */
-   min-height: 100vh; /* 최소 높이를 화면 높이로 설정 */
-    margin: 0;
 }
 @font-face {
     font-family: 'Cafe24Shiningstar';
