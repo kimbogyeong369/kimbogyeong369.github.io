@@ -31,7 +31,10 @@ a{
 .cb{
     clear: both;
 }
-header{
+header {
+    display: flex;
+    align-items: center; /* 수직 중앙 정렬 */
+    justify-content: space-between; /* 양 끝 정렬 */
     line-height: 80px;
     position: fixed;
     top: 0;
@@ -39,11 +42,15 @@ header{
     z-index: 10;
     width: 100%;
     height: 80px;
-   background-color: rgb(255,255,255,0.5); /* 투명한 흰색 배경 */
+    background-color: rgba(255, 255, 255, 0.5); /* 투명한 흰색 배경 */
 }
 
-.header-wrap{
+.header-wrap {
     width: 1300px;
+    display: flex; /* 수평 정렬을 위해 플렉스 박스 사용 */
+    align-items: center; /* 수직 중앙 정렬 */
+    justify-content: space-between; /* 양 끝 정렬 */
+    margin: auto; /* 중앙 정렬 */
 }
 
 
@@ -79,8 +86,11 @@ iframe{
     width: 180px;
     height: 100px;
 }
-
+.logo-title img {
+    display: block; /* 이미지의 바닥 여백 제거 */
+}
 nav{
+    display: flex; /* 수평 정렬을 위해 플렉스 박스 사용 */
     width: 600px;
     height: 80px;
     font-size: 16px;
