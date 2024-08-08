@@ -242,21 +242,25 @@ nav{
     overflow: hidden;
 }
 
-footer{
+footer {
     padding: 40px 0;
     text-align: center;
     background-color: rgba(158, 213, 246, 0.3);
+    position: relative;
 }
-footer > h5{
-   width: 170px;
-   height: 60px;
-    margin-bottom: 20px;
+
+footer > h5 {
+    width: 170px;
+    height: 60px;
+    margin: 0 auto 20px auto; /* 중앙 정렬과 아래 여백 */
 }
-footer > p{
+
+footer > p {
     font-size: 12px;
     font-weight: 100;
     line-height: 25px;
     color: #000000;
+    margin: 0; /* 기본 여백 제거 */
 }
 #breCr{
     width: 1300px;
