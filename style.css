@@ -235,11 +235,12 @@ nav{
 }
 
 footer {
-   margin: 0;
     padding: 40px 0;
     text-align: center;
     background-color: rgba(158, 213, 246, 0.3);
     position: relative;
+   height: auto; /* 높이를 자동으로 설정 */
+    overflow: hidden; /* 내부 콘텐츠로 인해 여백이 생기는 것을 방지 */
 }
 
 footer > h5 {
