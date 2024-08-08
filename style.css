@@ -248,10 +248,9 @@ footer{
     background-color: rgba(158, 213, 246, 0.3);
 }
 footer > h5{
-    font-size: 28px;
-    font-family: 'Cafe24Shiningstar', sans-serif;
+   width: 170px;
+   height: 60px;
     margin-bottom: 20px;
-    color: #21B4D1;
 }
 footer > p{
     font-size: 12px;
