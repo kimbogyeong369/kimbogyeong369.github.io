@@ -356,7 +356,7 @@ footer > p {
 }
 
 .about-me h2 {
-    font-size: 40px; /* 폰트 사이즈 설정 */
+    font-size: 100px; /* 폰트 사이즈 설정 */
     line-height: 1.2; /* 줄 간격 설정 */
     margin-bottom: 10px; /* 제목과 내용 간격 */
 }
