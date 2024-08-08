@@ -34,7 +34,6 @@ a{
 header {
     align-items: center; /* 수직 중앙 정렬 */
     justify-content: space-between; /* 양 끝 정렬 */
-    line-height: 80px;
     position: fixed;
     top: 0;
     left: 0;
@@ -77,12 +76,8 @@ iframe{
     border: none;
 }
 
-#logoWrap{
-    width: 180px;
-    height: 100px;
-}
 .logo-title img {
-   line-height: 50px;
+   margin-top:10px;
 }
 nav{
     width: 600px;
