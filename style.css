@@ -32,6 +32,7 @@ a{
     clear: both;
 }
 header {
+   display: flex; /* flexbox 적용 */
     align-items: center; /* 수직 중앙 정렬 */
     justify-content: space-between; /* 양 끝 정렬 */
     position: fixed;
@@ -74,10 +75,6 @@ section{
 }
 iframe{
     border: none;
-}
-
-.logo-title img {
-   margin-top:10px;
 }
 nav{
     width: 600px;
