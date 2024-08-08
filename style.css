@@ -295,6 +295,7 @@ footer > p {
 }
 /* 서브 페이지 */
 .container {
+   marain-top:80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -321,11 +322,14 @@ footer > p {
     margin-bottom: 20px;
 }
 
-h2 {
-    font-size: 20px;
+.right h2 {
+    font-size: 30px;
     line-height: 25px;
 }
-
+.right p {
+    font-size: 16px;
+    line-height: 25px;
+}
 
 .button-more{
     display: block;
