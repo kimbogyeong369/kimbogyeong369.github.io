@@ -32,7 +32,6 @@ a{
     clear: both;
 }
 header {
-   display: flex; /* flexbox 적용 */
     align-items: center; /* 수직 중앙 정렬 */
     justify-content: space-between; /* 양 끝 정렬 */
     position: fixed;
@@ -46,8 +45,8 @@ header {
 
 .header-wrap {
     width: 1300px;
+    display: flex; /* Flexbox 적용 */
 }
-
 
 .m-auto{
     margin: auto;
