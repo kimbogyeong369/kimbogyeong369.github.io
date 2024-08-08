@@ -331,7 +331,11 @@ footer > p {
 .content-column:last-child {
     margin-right: 0;
 }
-
+.content-column h1:{
+   font-size:30px;
+   line-height: 25px;
+   margin-bottom: 10px;
+}
 .right .content {
     margin-bottom: 20px;
 }
