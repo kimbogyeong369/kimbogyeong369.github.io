@@ -295,17 +295,16 @@ footer > p {
 }
 /* 서브 페이지 */
 .container {
-   marain-top:80px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 90px auto;
 }
 
 .left {
-    margin-right: 20px;
+    margin-right: 60px;
 }
 
 .left img {
@@ -323,7 +322,7 @@ footer > p {
 }
 
 .right h2 {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 25px;
 }
 .right p {
