@@ -292,13 +292,15 @@ footer > p {
     object-fit: cover; /* 이미지 비율을 유지하면서 영역을 채우도록 설정 */
 }
 /* 서브 페이지 */
-/* 서브 페이지 */
 .container {
-   margin-top:80px;
     display: flex;
-    justify-content: center; /* 가운데 정렬 */
-    align-items: flex-start;
-    margin: 0 auto; /* 추가: 컨테이너의 자동 마진을 통해 가운데 정렬 */
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: flex-start; /* 수직 정렬 (필요에 따라 조정) */
+    width: 100%; /* 전체 너비를 사용 */
+    max-width: 1200px; /* 최대 너비 설정 (필요에 따라 조정) */
+    margin: 0 auto; /* 가운데 정렬 */
+    padding: 20px; /* 패딩 추가 (선택 사항) */
+    box-sizing: border-box; /* 패딩과 테두리를 너비에 포함 */
 }
 
 .left {
@@ -353,7 +355,6 @@ footer > p {
 .read-more:hover {
     background-color: #0056b3;
 }
-
 
 .button-more{
     display: block;
