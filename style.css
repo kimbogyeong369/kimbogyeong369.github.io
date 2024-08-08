@@ -294,6 +294,8 @@ footer > p {
 /* 서브 페이지 */
 .container {
     display: flex;
+   justify-content: center;
+    align-items: flex-start;
 }
 
 .left {
