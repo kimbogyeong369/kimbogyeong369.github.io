@@ -293,69 +293,6 @@ footer > p {
     object-fit: cover; /* 이미지 비율을 유지하면서 영역을 채우도록 설정 */
 }
 /* 서브 페이지 */
-.container {
-    display: flex;
-    justify-content: center; /* 수평 가운데 정렬 */
-    align-items: flex-start; /* 수직 정렬 (필요에 따라 조정) */
-    width: 100%; /* 전체 너비를 사용 */
-    max-width: 1200px; /* 최대 너비 설정 (필요에 따라 조정) */
-    margin: 0 auto; /* 가운데 정렬 */
-    padding: 20px; /* 패딩 추가 (선택 사항) */
-    box-sizing: border-box; /* 패딩과 테두리를 너비에 포함 */
-}
-
-.left {
-    width: 350px;
-    height: 430px;
-    margin-right: 20px;
-}
-
-.left img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.right {
-    flex: 1;
-}
-
-.content {
-    margin-bottom: 20px;
-}
-
-.text-block {
-    max-height: 100px; /* 텍스트 블록의 최대 높이 설정 */
-    overflow: hidden; /* 넘치는 텍스트 숨기기 */
-    position: relative;
-}
-
-.text-block p {
-    margin: 0;
-    line-height: 2.0;
-}
-
-.read-more {
-    display: block;
-    margin-top: 10px;
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    text-align: center;
-    width: 100px;
-    border-radius: 5px;
-    font-size: 14px;
-}
-
-.read-more:focus {
-    outline: none;
-}
-
-.read-more:hover {
-    background-color: #0056b3;
-}
 
 .button-more{
     display: block;
