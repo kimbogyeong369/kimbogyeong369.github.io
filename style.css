@@ -292,10 +292,12 @@ footer > p {
     object-fit: cover; /* 이미지 비율을 유지하면서 영역을 채우도록 설정 */
 }
 /* 서브 페이지 */
+/* 서브 페이지 */
 .container {
     display: flex;
-   justify-content: center;
+    justify-content: center; /* 가운데 정렬 */
     align-items: flex-start;
+    margin: 0 auto; /* 추가: 컨테이너의 자동 마진을 통해 가운데 정렬 */
 }
 
 .left {
