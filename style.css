@@ -294,6 +294,7 @@ footer > p {
 /* 서브 페이지 */
 /* 서브 페이지 */
 .container {
+   margin-top:80px;
     display: flex;
     justify-content: center; /* 가운데 정렬 */
     align-items: flex-start;
