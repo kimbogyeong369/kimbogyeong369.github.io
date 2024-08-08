@@ -294,6 +294,38 @@ footer > p {
     object-fit: cover; /* 이미지 비율을 유지하면서 영역을 채우도록 설정 */
 }
 /* 서브 페이지 */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.left {
+    margin-right: 20px;
+}
+
+.left img {
+    width: 350px;
+    height: 430px;
+    object-fit: cover;
+}
+
+.right {
+    max-width: 600px;
+}
+
+.right .content {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 25px;
+}
+
 
 .button-more{
     display: block;
