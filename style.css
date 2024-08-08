@@ -82,7 +82,7 @@ iframe{
     height: 100px;
 }
 .logo-title img {
-    display: block; /* 이미지의 바닥 여백 제거 */
+   line-height: 50px;
 }
 nav{
     width: 600px;
